@@ -24,3 +24,8 @@ The first line indicates the number of cities. Each city is a point in the plane
 ### Comparisons (on tsp.txt file)
 * tsp_hashtable and tsp_bitset: running time: hours, result= 26442.73
 * tsp_heuristic and tsp_heuristic_xtrick: running time: less than 1 second, result= 32981.96
+
+### Comparisons (on nn.txt file)
+* tsp_hashtable and tsp_bitset: not feasible (on number vortecies more than ~25)
+* tsp_heuristic: running time: 439 seconds, result= 1203406.50
+* tsp_heuristic_xtrick: running time: 215 seconds, result= 1203406.50
