@@ -1,15 +1,15 @@
 # Travel Salesman Paath (TSP) 
 
 ### 1- Exact algorithm (tsp_exact)
-Two algorithms are presented:
+The exact algorithm is very inefficent, O(n^2 2^n) time. Two algorithms are presented:
 * tsp_hashtable: hash table is used to constructr the array in the tsp algorithm
 * tsp_bitset: a bitset labeling to construct the array in the tsp algorithm  
 
-In the input files, the first line indicates the number of cities. Each city is a point in the plane, and each subsequent line indicates the x- and y-coordinates of a single city. The distance between two cities is defined as the Euclidean distance 
+In the input files, the first line indicates the number of cities. Each city is a point in the plane, and each subsequent line indicates the x- and y-coordinates of a single city. The distance between two cities is defined as the Euclidean distance.
 
 
 ### 2- Heuristic algorithm (tsp_heuristic)
-We are not gauranteed to get the optimal solution. Two versions of the algorithm are presented:
+We are not gauranteed to get the optimal solution. But, it is more effcient. Two versions of the algorithm are presented:
 * tsp_heuristic
 * tsp_heuristic_xtrick: an early_stop trick is used to minimize number of calculations to increase the efficiency. 
 
