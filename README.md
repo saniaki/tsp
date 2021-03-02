@@ -20,3 +20,7 @@ In this heuristic algorithm, we:
 
 
 The first line indicates the number of cities. Each city is a point in the plane, and each subsequent line indicates the x- and y-coordinates of a single city. The distance between two cities is defined as the Euclidean distance .
+
+### Comparisons (on tsp.txt file)
+tsp_hashtable and tsp_bitset: running time: hours, result= 26442.73
+tsp_heuristic and tsp_heuristic_xtrick: running time: less than 1 second, result= 32981.96
