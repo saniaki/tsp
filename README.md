@@ -1,4 +1,8 @@
 # Travel Salesman Path (TSP) 
+The length shourtest tour and the order of vertices to visit for the shourtest tour in TSP problem is outputed. The shortest tour is also drawn as a figure.
+
+<p align="center">
+<img  align="center" src="https://github.com/saniaki/Sequential_PINN/blob/main/README_Images/Figure_03.png" width="500"/>
 
 ### 1- Exact algorithm (tsp_exact)
 The exact algorithm is very inefficent, O(n^2 2^n) time. Two algorithms are presented:
