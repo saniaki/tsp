@@ -1,4 +1,4 @@
-# Travel Salesman Paath (TSP) 
+# Travel Salesman Path (TSP) 
 
 ### 1- Exact algorithm (tsp_exact)
 The exact algorithm is very inefficent, O(n^2 2^n) time. Two algorithms are presented:
