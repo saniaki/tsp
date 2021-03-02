@@ -1,6 +1,6 @@
 # Travel Salesman Paath (TSP) 
 
-### 1- Exact algorithm (tsp)
+### 1- Exact algorithm (tsp_exact)
 Two algorithms are presented:
 * tsp_hashtable: hash table is used to constructr the array in the tsp algorithm
 * tsp_bitset: a bitset labeling to construct the array in the tsp algorithm  
